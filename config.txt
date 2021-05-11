@@ -1,0 +1,30 @@
+--  bot configuration
+
+bot_info:
+| token -> "ODQwNzIyNDc4MDIzNDQyNDc0.YJcV0g.wgxKyVP5jsxX49l5Ye08xeCAr4Q"
+
+bot_configuration:
+| prefix                  -> ";"
+| root_command_directory  -> "commands/"
+
+database_configuration:
+| directory     -> "dbms/userbase.db"
+
+-- measurements in seconds
+channel_configuration:
+| default_channel -> "840719671425761314"
+| log_channel     -> "840948461382008842"
+| autorole_after  -> 10
+| autolock_period -> 30
+| automute_period -> 60
+
+specific_role_permissions:
+| "840951234172420107"  -> "administrative"
+| "Golden Customer"     -> "840968805840191530"
+| "Notorious"           -> "840968862169563146"
+| "Customer"            -> "840974901607530557"
+| "Member"              -> "841104507509276722"
+
+slowmode_parameters:
+| avg_threshold   -> 0.4
+| cooldown_period -> 10
