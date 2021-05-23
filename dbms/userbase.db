@@ -1,12 +1,20 @@
 {
     "775350431495880724": {
         "username": "mindaugas",
-        "balance": 100,
-        "last-daily": 1620574346.705789
+        "balance": 150,
+        "last-daily": 1620779488.6007736,
+        "vouches": 0
     },
     "695038556430663720": {
         "username": "xchg",
+        "balance": 80,
+        "last-daily": 1620943229.5864947,
+        "vouches": 0
+    },
+    "342005032599814146": {
+        "username": "UMBCo",
         "balance": 50,
-        "last-daily": 0
+        "last-daily": 1620943220.47236,
+        "vouches": 1
     }
 }

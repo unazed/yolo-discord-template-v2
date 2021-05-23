@@ -242,7 +242,7 @@ class UmbcoDiscordBot(discord.Client):
 
     async def autorole_after_period(self, member, role, period):
         await asyncio.sleep(period)
-        await member.give_roles(role)
+        await member.add_roles(role)
 
     async def on_member_join(self, member):
         asyncio.create_task(self.autorole_after_period(

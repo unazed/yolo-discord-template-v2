@@ -11,6 +11,8 @@ async def invoke(client, message, _, amount):
     elif not message.mentions:
         return await message.channel.send(f"<@{message.author.id}>, no user mentioned to vouch")
     user = message.mentions[0]
+    if user == message.author:
+        return await message.channel.send(f"<@{message.author.id}>, you can't vouch yourself")
     vid = random.randint(1, 65535)
     if vid in client.unverified_vouches:
         vid = random.randint(1, 65535)
