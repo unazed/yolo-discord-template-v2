@@ -1,12 +1,8 @@
 --  bot configuration
 
 bot_info:
-<<<<<<< HEAD
 | token -> "..."
-=======
-| token -> "ODQwNzIyNDc4MDIzNDQyNDc0.YJcV0g.wgxKyVP5jsxX49l5Ye08xeCAr4Q"
 -- expired token, don't bother
->>>>>>> b2b15519ed19fc103d013ffaf795256f0b65ec1e
 
 bot_configuration:
 | prefix                  -> ";"
