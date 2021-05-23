@@ -2,7 +2,6 @@
 
 bot_info:
 | token -> "..."
--- expired token, don't bother
 
 bot_configuration:
 | prefix                  -> ";"
