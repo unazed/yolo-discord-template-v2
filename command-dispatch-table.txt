@@ -1,0 +1,62 @@
+-- the bot dynamically loads modules for on-the-fly development, this is where it finds the command files
+
+help:
+| file  -> "help.py"
+| use   -> "Displays help information"
+
+payment:
+| file    -> "payment.py"
+| use     -> "Display Umbco's payment methods"
+| paypal  -> "example@mail.com"
+| bitcoin -> "test_btc_address"
+| eth     -> "0xtest_eth_address"
+
+daily:
+| file      -> "daily.py"
+| use       -> "Collect a regular pay cheque every 24 hours"
+
+profile:
+| file  -> "profile.py"
+| use   -> "View your own information"
+
+set_default_channel:
+| file        -> "default_channel.py"
+| use         -> "Set bot's default channel"
+| restricted  -> "administrative"
+
+set_log_channel:
+| file        -> "log_channel.py"
+| use         -> "Set bot's default log channel"
+| restricted  -> "administrative"
+
+rename:
+| file        -> "rename.py"
+| use         -> "Rename bot"
+| restricted  -> "administrative"
+
+toggle_afk_status:
+| file        -> "afk.py"
+| use         -> "Toggle AFK mode with a custom status"
+| restricted  -> "administrative"
+
+change_avatar:
+| file        -> "avatar.py"
+| use         -> "Change the bot's avatar"
+| restricted  -> "administrative"
+
+give_money:
+| file        -> "give_money.py"
+| use         -> "Add money into a person's wallet"
+| restricted  -> "administrative"
+
+give_vouch:
+| file  -> "give_vouch.py"
+| use   -> "Vouch another user"
+
+accept_vouch:
+| file  -> "accept_vouch.py"
+| use   -> "Accept any unverified vouches"
+
+gamble:
+| file  -> "gamble.py"
+| use   -> "Play your odds on a slot machine"
